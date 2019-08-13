@@ -1,0 +1,64 @@
+body{
+    background-color: #DCD9D4; 
+ background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%); 
+ background-blend-mode: soft-light,screen;
+ font-family: 'montserrat';
+}
+.cont{
+    width: 100%;
+    height:1000px;
+    text-align: center;
+    color: #191919b5;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.error,.empty{
+    background: #f8d7da;
+    text-align: left !important;
+    color: #721c24; 
+    padding:10px 18px;
+    display: none;
+    width: 30%;
+    margin-bottom: 1px;
+    text-transform: capitalize;
+    border-radius: 1px;
+    transition: all 1s ease-in-out;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+input{
+   border: none;
+    width: 32%; 
+    padding: 10px 5px;
+    padding-top: 15px;
+    outline: none;
+}
+
+label{
+    margin: 10px;
+    width: 33%;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left !important;
+
+}
+input[type=submit]{
+ width: 150px;
+ background-color: #28a745;
+ color: white;
+ border-color: #28a745;
+ cursor: pointer;
+ margin-top: 20px;
+ font-family: 'montserrat';
+ font-size: 18px;
+ padding-top:10px;
+border-radius: 20px;
+outline:none;
+}

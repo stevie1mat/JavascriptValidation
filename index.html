@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validation by JS</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="cont">
+        <form action="#">
+            <label for="">name :</label>
+            <input type="text" placeholder="your name" onblur="vname()">
+            <div class="empty" >
+                
+                the name filed name is empty
+                     
+                 </div>
+            <div class="e1 error" >
+                
+           the name length must be grater than 2 and less than 11 chars
+                
+            </div>
+            <div class="e2 error" >
+               
+                 the name must contain only charcters
+                
+            </div>
+            <label for="">password :</label>
+            <input type="password" placeholder="your password" onblur="vpassword()">
+            <div class="e1 empty" >
+                
+                the password filed name is empty
+                     
+                 </div>
+                <div class="e3 error" >
+                    the password length must be less than 9 digits.   
+                     </div>
+                     <div class="e4 error" >
+                        the password must contain charcters and numbers.
+                     </div>
+            <label for="">age :</label>
+            <input type="text" placeholder="your age" onblur="vage()">
+            <div class=" empty" >
+                
+                the age filed name is empty
+                     
+                 </div>
+            <div class="e5 error">
+                    the age must be less than 61 and more than 15  
+                </div>
+                <div class="e6 error">
+                    the age must contain only numbers
+                </div>
+            <label for="">e-mail :</label>
+            <input type="text" placeholder="your e-mail" onblur="vemail()">
+            <div class="e1 empty" >
+                
+                the email filed name is empty
+                     
+                 </div>
+            <div class="e7 error">
+                  
+                       email must string then @ then domain. such <br>
+                       personal_info@domain.        
+                    
+                </div>
+            <label for="">address :</label>
+            <input type="text" placeholder="your addres" onblur="vadd()">
+            <div class="empty" >
+                
+                the address filed name is empty
+                     
+                 </div>
+            <div class="e8 error">
+                    
+                        the address is legnth must be more than 10 chars
+                    
+                   
+                </div>
+            <input type="submit" onclick="valid()">
+        </form>
+    </div>
+    
+    <script src="js.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
